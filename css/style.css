@@ -1,0 +1,80 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  padding: 40px 90px;
+  color: hsl(234, 12%, 34%);
+  margin: 0;
+  background-color: #ffffff;
+}
+h1 {
+  font-weight: 200;
+  margin: 0;
+}
+.header {
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+.intro p, p {
+  color: #888888;
+  font-size: 13px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+.header, .intro {
+  text-align: center;
+}
+.flex-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.card {
+  padding: 5px 30px 20px 30px;
+  border-radius: 5px;
+  box-shadow: 5px 20px 15px #E0E0E0;
+  width: 280px;
+  height: 220px;
+  margin: 15px;
+  background-color: #ffffff;
+}
+.left {
+  margin-top: -35px;
+  text-align: left;
+}
+
+.right {
+  margin-top: -121px;
+  text-align: right;
+}
+
+button{
+  margin-bottom: -10px;
+  text-align: center;
+}
+.card-1 {
+  border-top: solid 5px hsl(34, 97%, 64%);
+}
+.card-2 {
+  border-top: solid 5px hsl(180, 62%, 55%);
+}
+.card-3 {
+  border-top: solid 5px hsl(0, 78%, 62%);
+}
+.card-4 {
+  border-top: solid 5px hsl(212, 86%, 64%);
+}
+
+@media screen and (max-width: 500px) {
+.flex-container {
+flex-direction: column;
+ }
+h1, .header {
+  font-size: 20px;
+}
+.intro p, p {
+  font-size: 13px;
+}
+}
