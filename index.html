@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>CryptoCards💸| Arya Shah</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+</head>
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+    function copyToClipboard(element) {
+   var $temp = $("<input>");
+   $("body").append($temp);
+   $temp.val($(element).text()).select();
+   document.execCommand("copy");
+   $temp.remove();
+   alert("Wallet Address Copied!");
+  }
+  </script>
+  
+  <!-- Header -->
+    <h1 class="header">One stop solution for your crypto assets</h1>
+    <h2 class="header">CryptoCards</h2>
+
+    <p class="intro">Receive donations, gather funds in crypto with the share of a link<br>
+      CryptoCards ensures all your Crypto wallet addresses are easily available to those who wish to donate coins to your highly diversified assets<br> 
+      Including BTC, ETH and various Altcoins.</p>
+
+<div class="flex-container">
+  <!-- Card 1 -->
+  <div class="card card-1">
+    <h2>Bitcoin | BTC <button onclick="copyToClipboard('#p1')">📋</button></h2>
+    <p>38ztr7TGHake1agetoTwZ9zh7a8Gku4JGE</p>
+    <p id="p1" hidden>38ztr7TGHake1agetoTwZ9zh7a8Gku4JGE</p>
+    <div class="left">
+      <img src="images/bitcoin.png" alt="Bitcoin Logo">
+    </div>
+    <div class="right">
+      <img src="qr/btc.PNG" alt="Bitcoin QR">
+    </div>
+  </div>
+  <!-- Card 2 -->
+  <div class="card card-2">
+    <h2>Ethereum | ETH <button onclick="copyToClipboard('#p2')">📋</button></h2>
+    <p>0x327642dbc357244cfcbee102774af3b<br>5a29bbc55</p>
+    <p id="p2" hidden>0x327642dbc357244cfcbee102774af3b5a29bbc55</p>
+    <div class="left">
+      <img src="images/eth.png" alt="Ethereum Logo">
+    </div>
+    <div class="right">
+      <img src="qr/eth.PNG" alt="Ethereum QR">
+    </div>
+  </div>
+  <!-- Card 3 -->
+  <div class="card card-1">
+    <h2>DogeCoin | DOGE <button onclick="copyToClipboard('#p3')">📋</button></h2>
+    <p>DSm2YLX9x1kcDYmeNo7iqzUTj4XaoqCAb3</p>
+    <p id="p3" hidden>DSm2YLX9x1kcDYmeNo7iqzUTj4XaoqCAb3</p>
+    <div class="left">
+      <img src="images/doge.png" alt="Doge Logo">
+    </div>
+    <div class="right">
+      <img src="qr/doge.PNG" alt="Doge QR">
+    </div>
+  </div>
+</div>
+
+<div class="flex-container">
+  <!-- Card 4 -->
+  <div class="card card-2">
+    <h2>Cardano | ADA <button onclick="copyToClipboard('#p4')">📋</button></h2>
+    <p>DdzFFzCqrht5a93wawkywmbWD1aNcgn6N2<br>35e7zBMEwDSfLGyks7AYsSXaqfohVLjbD5D9<br>keaRTfRT3u8ubE6aNW3pruCWWC58FZis62</p>
+    <p id="p4" hidden>DdzFFzCqrht5a93wawkywmbWD1aNcgn6N235e7zBMEwDSfLGyks7AYsSXaqfohVLjbD5D9keaRTfRT3u8ubE6aNW3pruCWWC58FZis62</p>
+    <div class="left">
+      <img src="images/ada.png" alt="Cardano Logo">
+    </div>
+    <div class="right">
+      <img src="qr/ada.PNG" alt="Cardano QR">
+    </div>
+  </div>
+  <!-- Card 5 -->
+  <div class="card card-1">
+    <h2>Tether | USDT <button onclick="copyToClipboard('#p5')">📋</button></h2>
+    <p>0x327642dbc357244cfcbee102774af3b<br>5a29bbc55</p>
+    <p id="p5" hidden>0x327642dbc357244cfcbee102774af3b5a29bbc55</p>
+    <div class="left">
+      <img src="images/usdt.png" alt="USDT Logo">
+    </div>
+    <div class="right">
+      <img src="qr/usdt.png" alt="USDT QR">
+    </div>
+  </div>
+  <!-- Card 6 -->
+  <div class="card card-2">
+    <h2>Ripple | XRP <button onclick="copyToClipboard('#p6')">📋</button></h2>
+    <p>rNFugeoj3ZN8Wv6xhuLegUBBPXKCyWLRkB<br><b>Tag: 1882867940</b></p>
+    <p id="p6" hidden>Address: rNFugeoj3ZN8Wv6xhuLegUBBPXKCyWLRkB | Tag: 1882867940 </p>
+    <div class="left">
+      <img src="images/xrp.png" alt="Ripple Logo">
+    </div>
+    <div class="right">
+      <img src="qr/xrp.PNG" alt="Ripple QR">
+    </div>
+  </div>
+</div>
+
+<div class="flex-container">
+  <!-- Card 7 -->
+  <div class="card card-1">
+    <h2>Tron | TRX <button onclick="copyToClipboard('#p7')">📋</button></h2>
+    <p>TSh9nwKuLReJrjNWYSgasm7Mx3vidDHWHv</p>
+    <p id="p7" hidden>TSh9nwKuLReJrjNWYSgasm7Mx3vidDHWHv</p>
+    <div class="left">
+      <img src="images/tron.png" alt="Tron Logo">
+    </div>
+    <div class="right">
+      <img src="qr/tron.png" alt="TRX QR">
+    </div>
+  </div>
+  <!-- Card 8 -->
+  <div class="card card-2">
+    <h2>BinanceCoin | BNB <button onclick="copyToClipboard('#p8')">📋</button></h2>
+    <p>bnb13q87ekxvvte78t2q7z05lzfethnlht5agfh4ur<br><b>Memo: 1882867940</b></p>
+    <p id="p8" hidden>Address: bnb13q87ekxvvte78t2q7z05lzfethnlht5agfh4ur | Memo: 1882867940 </p>
+    <div class="left">
+      <img src="images/bnb.png" alt="BinanceCoin Logo">
+    </div>
+    <div class="right">
+      <img src="qr/bnb.PNG" alt="BNB QR">
+    </div>
+  </div>
+  <!-- Card 9 -->
+  <div class="card card-1">
+    <h2>LiteCoin | LTC <button onclick="copyToClipboard('#p9')">📋</button></h2>
+    <p>MX25oZ3b7RgYFrsQsPnTZaLb39MkeWtYok</p>
+    <p id="p9" hidden>MX25oZ3b7RgYFrsQsPnTZaLb39MkeWtYok</p>
+    <div class="left">
+      <img src="images/ltc.png" alt="Litecoin Logo">
+    </div>
+    <div class="right">
+      <img src="qr/ltc.PNG" alt="Litecoin QR">
+    </div>
+  </div>
+</div>
+
+<div class="flex-container">
+  <!-- Card 10 -->
+  <div class="card card-2">
+    <h2>Monero | XMR <button onclick="copyToClipboard('#p10')">📋</button></h2>
+    <p>88wg8qZ1KLME23RnXXDKCZJjqhtN2PLdJj3XnQ<br>VBL65gciuRFPbptiDQypmq6wdSSPfEvt6kZcw<br>B2WRtzXKv77k87VYsCd4</p>
+    <p id="p10" hidden>88wg8qZ1KLME23RnXXDKCZJjqhtN2PLdJj3XnQVBL65gciuRFPbptiDQypmq6wdSSPfEvt6kZcwB2WRtzXKv77k87VYsCd4</p>
+    <div class="left">
+      <img src="images/monero.png" alt="Monero Logo">
+    </div>
+    <div class="right">
+      <img src="qr/monero.PNG" alt="Monero QR">
+    </div>
+  </div>
+  <!-- Card 11 -->
+  <div class="card card-1">
+    <h2>Shiba Inu | SHIB <button onclick="copyToClipboard('#p11')">📋</button></h2>
+    <p>0x327642dbc357244cfcbee102774af3b5<br>a29bbc55</p>
+    <p id="p11" hidden>0x327642dbc357244cfcbee102774af3b5a29bbc55</p>
+    <div class="left">
+      <img src="images/shiba.png" alt="Shiba Inu Logo">
+    </div>
+    <div class="right">
+      <img src="qr/shiba.png" alt="Shiba QR">
+    </div>
+  </div>
+  <!-- Card 12 -->
+  <div class="card card-2">
+    <h2>Wink | WIN <button onclick="copyToClipboard('#p12')">📋</button></h2>
+    <p>TSh9nwKuLReJrjNWYSgasm7Mx3vidDHWHv</p>
+    <p id="p12" hidden>TSh9nwKuLReJrjNWYSgasm7Mx3vidDHWHv</p>
+    <div class="left">
+      <img src="images/wink.png" alt="WINk Logo">
+    </div>
+    <div class="right">
+      <img src="qr/wink.png" alt="WINk QR">
+    </div>
+  </div>
+</div>
+
+<div class="flex-container">
+  <!-- Card 13 -->
+  <div class="card card-2">
+    <h2>Bittorrent | BTT <button onclick="copyToClipboard('#p13')">📋</button></h2>
+    <p>TSh9nwKuLReJrjNWYSgasm7Mx3vidDHWHv</p>
+    <p id="p13" hidden>TSh9nwKuLReJrjNWYSgasm7Mx3vidDHWHv</p>
+    <div class="left">
+      <img src="images/btt.png" alt="BTT Logo">
+    </div>
+    <div class="right">
+      <img src="qr/btt.png" alt="Bittorrent QR">
+    </div>
+  </div>
+  <!-- Card 14 -->
+  <div class="card card-1">
+    <h2>Polygon | MATIC <button onclick="copyToClipboard('#p14')">📋</button></h2>
+    <p>0x327642dbc357244cfcbee102774af3b<br>5a29bbc55</p>
+    <p id="p14" hidden>0x327642dbc357244cfcbee102774af3b5a29bbc55</p>
+    <div class="left">
+      <img src="images/matic.png" alt="MATIC Logo">
+    </div>
+    <div class="right">
+      <img src="qr/matic.png" alt="MATIC QR">
+    </div>
+  </div>
+  <!-- Card 15 -->
+  <div class="card card-2">
+    <h2>Algorand | ALGO <button onclick="copyToClipboard('#p15')">📋</button></h2>
+    <p>IHGGIJ6BGW6SILTONZPVC6ZRZFG72TXIQ4<br>5SR57QPTPRAPF4IL6UQOOVNU</p>
+    <p id="p15" hidden>IHGGIJ6BGW6SILTONZPVC6ZRZFG72TXIQ45SR57QPTPRAPF4IL6UQOOVNU</p>
+    <div class="left">
+      <img src="images/algorand.png" alt="Algo Logo">
+    </div>
+    <div class="right">
+      <img src="qr/algo.png" alt="ALGO QR">
+    </div>
+  </div>
+</div>
+<!--Remaining Coins: Bittorrent Coin, ALGO, QTUM, Polkadot, MATIC, ZEC etc-->
+  <footer>
+    <p class="attribution">
+      HODL Till We Reach To The Moon With <a href="https://github.com/aryashah2k" target="_blank">Arya</a>.
+      <br>Copyright © 2021 | Arya Shah
+    </p>
+  </footer>
+</body>
+</html>
